@@ -5547,9 +5547,10 @@ paths:
           type: string
         - in: body
           name: body
-          required: true
           schema:
-            $ref: '#/definitions/tagBody'
+            type: object
+            properties: {}
+          description: ''
       responses:
         '201':
           description: Created
